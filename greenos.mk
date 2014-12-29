@@ -1,12 +1,9 @@
 $(call inherit-product, device/oppo/find7/full_find7.mk)
 
-# Inherit some common CM stuff
-$(call inherit-product, vendor/greenos/config/gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/greenos/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common GreenOS stuff.
 $(call inherit-product, vendor/greenos/config/common_full_phone.mk)
 
 PRODUCT_NAME := greenos_find7
